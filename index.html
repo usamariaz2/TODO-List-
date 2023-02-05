@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="navul">
+            <li class="navli">Home</li>
+            <li class="navli">About</li>
+            <li class="navli">Tasks</li>
+        </ul>
+    </nav>
+    <main>
+        <div id="handle">
+            <input type="text" id="inputvalue" placeholder="Enter Your task here " required>
+            <button id="btn" type="submit"> Add</button>
+        </div>
+        
+        <ul id="parentlist" class="oder-list">
+            <li class="order-item" id="item" >
+                <h1>Chapter no 1</h1>
+                <button id="edit" onclick="edit(this)">Edit</button>
+                <button id="remove" onclick="remove(this)">Remove</button>
+            </li>
+        </ul>
+    
+    </main>
+
+  <script src="./index.js"></script>
+</body>
+</html>
